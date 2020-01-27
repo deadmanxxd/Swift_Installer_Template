@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="close">Close</string>
+    <string name="integrity_check">Integrity check</string>
+    <string name="integrity_check_failed">"Swift Installer must be installed from Play Store, or else it won't run.\n\nAlso make sure to have internet connection for this check to succeed.\n\nIf you think something went wrong, and if you see this dialog even though you installed it from Play Store, please email us at swiftthemesfeedback@gmail.com"</string>
+</resources>

@@ -1,0 +1,6 @@
+<changelog>
+    <release versionCode="317" versionName="v317">
+        <common>Changes for all devices</common>
+        <installer>Lib related changes</installer>
+    </release>
+</changelog>

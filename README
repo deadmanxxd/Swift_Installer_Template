@@ -1,0 +1,23 @@
+Overlays
+	- com.android.settings --- the package name of the app
+		- versions – here you can separate different app versions
+			- v1 – will be any app version starting with 1
+			- common --- treated like base common/ shared between versions
+		- props – used to handle different systems
+			- ro.build.version.sdk – can be any prop found on any system
+			- common – shared between props
+			- default – if no props match
+		- common – anything common with everything
+		- version – version file increment from 1 to check for updates
+
+
+These can be in any folder
+	-versions
+	-props
+	-common
+
+they will act exactly like above
+
+Any folder containing “versions”, “props”, or “common will be scanned and not treated like a resource path
+
+Only put resources in common or a folder of their own
